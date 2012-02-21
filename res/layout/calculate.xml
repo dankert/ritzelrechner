@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="20sp">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/zaehne_vorne"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text=": " android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView android:text="test" android:id="@+id/text_zaehne_vorne"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<SeekBar android:max="53" android:progress="48"
+		android:id="@+id/seek_anzahl_zaehne_vorne" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></SeekBar>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/zaehne_hinten"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text=": " android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/text_zaehne_hinten"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<SeekBar android:max="36" android:progress="10"
+		android:id="@+id/seek_anzahl_zaehne_hinten" android:layout_width="fill_parent"
+		android:contentDescription="@string/zaehne_hinten"
+		android:layout_height="wrap_content"></SeekBar>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/trittfrequenz"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text=": " android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView android:text="" android:id="@+id/text_trittfrequenz"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text=" " android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<TextView android:text="@string/umin" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<SeekBar android:max="120" android:progress="85"
+		android:id="@+id/seek_trittfrequenz" android:layout_width="fill_parent"
+		android:contentDescription="@string/trittfrequenz"
+		android:layout_height="wrap_content"></SeekBar>
+
+	<TextView android:text="" android:textSize="50sp"
+		android:gravity="center_horizontal" android:id="@+id/geschwindigkeit"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>

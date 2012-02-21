@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Ritzelrechner</string>
+	<string name="preferences">Einstellungen</string>
+	<string name="geschwindigkeit">Geschwindigkeit</string>
+	
+	<string name="trittfrequenz">Trittfrequenz</string>
+	<string name="zaehne_vorne">Zähne vorne</string>
+	<string name="zaehne_hinten">Zähne hinten</string>
+
+	<string-array name="umfang_label">
+		<item>20 Zoll 40-406</item>
+		<item>20 Zoll 47-406</item>
+		<item>20 Zoll 54-406</item>
+		<item>24 Zoll 47-507</item>
+		<item>24 Zoll 54-507</item>
+		<item>26 Zoll 25-559</item>
+		<item>26 Zoll 35-559</item>
+		<item>26 Zoll 40-559</item>
+		<item>26 Zoll 47-559</item>
+		<item>26 Zoll 50-559</item>
+		<item>26 Zoll 54-559</item>
+		<item>26 Zoll 57-559</item>
+		<item>26 Zoll 60-559</item>
+		<item>26 Zoll 37-590</item>
+		<item>28 Zoll 20-622</item>
+		<item>28 Zoll 23-622</item>
+		<item>28 Zoll 25-622</item>
+		<item>28 Zoll 28-622</item>
+		<item>28 Zoll 30-622</item>
+		<item>28 Zoll 32-622</item>
+		<item>28 Zoll 35-622</item>
+		<item>28 Zoll 37-622</item>
+		<item>28 Zoll 40-622</item>
+		<item>28 Zoll 42-622</item>
+		<item>28 Zoll 47-622</item>
+		<item>28 Zoll 50-622</item>
+		<item>28 Zoll 54-622</item>
+		<item>28 Zoll 60-622</item>
+		<item>27 Zoll 32-630</item>
+		<item>28 Zoll 40-635</item>
+	</string-array>
+	
+	<string-array name="umfang_value">
+		<item>1530</item>
+		<item>1550</item>
+		<item>1590</item>
+		<item>1860</item>
+		<item>1920</item>
+		<item>1940</item>
+		<item>1980</item>
+		<item>2000</item>
+		<item>2020</item>
+		<item>2040</item>
+		<item>2080</item>
+		<item>2100</item>
+		<item>2150</item>
+		<item>2090</item>
+		<item>2110</item>
+		<item>2120</item>
+		<item>2130</item>
+		<item>2150</item>
+		<item>2260</item>
+		<item>2160</item>
+		<item>2285</item>
+		<item>2190</item>
+		<item>2220</item>
+		<item>2230</item>
+		<item>2280</item>
+		<item>2280</item>
+		<item>2295</item>
+		<item>2350</item>
+		<item>2180</item>
+		<item>2240</item>
+	</string-array>
+	
+	
+	<string-array name="einheit_label">
+		<item>km/h</item>
+		<item>mph</item>
+	</string-array>
+	
+	<string-array name="einheit_value">
+		<item>kmh</item>
+		<item>mph</item>
+	</string-array>
+	
+	<string name="groesse">Radgröße</string>
+	<string name="umin">U/Min.</string>
+</resources>

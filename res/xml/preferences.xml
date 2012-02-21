@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/app_name">
+
+
+	<ListPreference android:defaultValue="2150"
+		android:title="@string/groesse" android:entries="@array/umfang_label"
+		android:entryValues="@array/umfang_value" android:key="umfang" />
+
+	<ListPreference android:defaultValue="kmh"
+		android:title="@string/geschwindigkeit" android:entries="@array/einheit_label"
+		android:entryValues="@array/einheit_value" android:key="einheit" />
+
+</PreferenceScreen>
