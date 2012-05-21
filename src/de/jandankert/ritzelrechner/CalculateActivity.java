@@ -83,15 +83,15 @@ public class CalculateActivity extends Activity
 	{
 		// Umfang im Millimeter
 		int umfang = Integer.parseInt(prefs.getString("umfang", "2150"));
-		int anzahlZaehneVorne = anzahlZaehneVorneView.getProgress();
+		int anzahlZaehneVorne = anzahlZaehneVorneView.getProgress()+22;
 		((TextView) findViewById(R.id.text_zaehne_vorne)).setText(""
 				+ anzahlZaehneVorne);
 
-		int anzahlZaehneHinten = anzahlZaehneHintenView.getProgress();
+		int anzahlZaehneHinten = anzahlZaehneHintenView.getProgress()+10;
 		((TextView) findViewById(R.id.text_zaehne_hinten)).setText(""
 				+ anzahlZaehneHinten);
 
-		int trittfrequenz = trittfrequenzView.getProgress();
+		int trittfrequenz = trittfrequenzView.getProgress()+40;
 		((TextView) findViewById(R.id.text_trittfrequenz)).setText(Integer
 				.toString(trittfrequenz));
 

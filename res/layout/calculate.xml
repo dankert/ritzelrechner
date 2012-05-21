@@ -12,7 +12,7 @@
 		<TextView android:text="test" android:id="@+id/text_zaehne_vorne"
 			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 	</LinearLayout>
-	<SeekBar android:max="53" android:progress="48"
+	<SeekBar android:max="31" android:progress="26"
 		android:id="@+id/seek_anzahl_zaehne_vorne" android:layout_width="fill_parent"
 		android:layout_height="wrap_content"></SeekBar>
 
@@ -25,7 +25,7 @@
 		<TextView android:text="" android:id="@+id/text_zaehne_hinten"
 			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 	</LinearLayout>
-	<SeekBar android:max="36" android:progress="10"
+	<SeekBar android:max="26" android:progress="3"
 		android:id="@+id/seek_anzahl_zaehne_hinten" android:layout_width="fill_parent"
 		android:contentDescription="@string/zaehne_hinten"
 		android:layout_height="wrap_content"></SeekBar>
@@ -43,7 +43,7 @@
 		<TextView android:text="@string/umin" android:layout_width="wrap_content"
 			android:layout_height="wrap_content"></TextView>
 	</LinearLayout>
-	<SeekBar android:max="120" android:progress="85"
+	<SeekBar android:max="80" android:progress="45"
 		android:id="@+id/seek_trittfrequenz" android:layout_width="fill_parent"
 		android:contentDescription="@string/trittfrequenz"
 		android:layout_height="wrap_content"></SeekBar>
