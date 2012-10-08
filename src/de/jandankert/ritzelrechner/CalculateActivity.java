@@ -83,6 +83,7 @@ public class CalculateActivity extends Activity
 	{
 		// Umfang im Millimeter
 		int umfang = Integer.parseInt(prefs.getString("umfang", "2150"));
+		
 		int anzahlZaehneVorne = anzahlZaehneVorneView.getProgress()+22;
 		((TextView) findViewById(R.id.text_zaehne_vorne)).setText(""
 				+ anzahlZaehneVorne);

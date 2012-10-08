@@ -5,8 +5,8 @@
 	<string name="geschwindigkeit">Speed</string>
 	
 	<string name="trittfrequenz">Cadence</string>
-	<string name="zaehne_vorne">Teeth front</string>
-	<string name="zaehne_hinten">Teeth rear</string>
+	<string name="zaehne_vorne">Front derailleur teeth</string>
+	<string name="zaehne_hinten">Rear derailleur teeth</string>
 
 	<string-array name="umfang_label">
 		<item>20&quot; 40-406</item>

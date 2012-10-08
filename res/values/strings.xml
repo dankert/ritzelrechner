@@ -5,8 +5,8 @@
 	<string name="geschwindigkeit">Geschwindigkeit</string>
 	
 	<string name="trittfrequenz">Trittfrequenz</string>
-	<string name="zaehne_vorne">Zähne vorne</string>
-	<string name="zaehne_hinten">Zähne hinten</string>
+	<string name="zaehne_vorne">Zähne Kettenblatt (vo.)</string>
+	<string name="zaehne_hinten">Zähne Kassette (hi.)</string>
 
 	<string-array name="umfang_label">
 		<item>20 Zoll 40-406</item>
