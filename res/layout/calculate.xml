@@ -43,7 +43,7 @@
 		<TextView android:text="@string/umin" android:layout_width="wrap_content"
 			android:layout_height="wrap_content"></TextView>
 	</LinearLayout>
-	<SeekBar android:max="80" android:progress="45"
+	<SeekBar android:max="110" android:progress="45"
 		android:id="@+id/seek_trittfrequenz" android:layout_width="fill_parent"
 		android:contentDescription="@string/trittfrequenz"
 		android:layout_height="wrap_content"></SeekBar>
